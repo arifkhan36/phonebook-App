@@ -13,8 +13,8 @@
 my app will start with a landing page, which I call a Homepage, and a button in it to navigate to the second page .In second page there will be an image,name, location and add notes options for the users.After creating the account, the users can see a succesfull message if they manage to create their profile successfully, otherwise they will get an error message.In the third page users can see their contact list along with an update and delete button where they can update and delete their contact info.In the fourth page there will be all users contact list that are created before, and it will show the list from the database.
 # Technology I will use:
 
- Ejs
- Node and Express
- Css
- Psql
- Bootstrap 
+ 1) Ejs
+ 2) Node and Express
+ 3) Css
+ 4) Psql
+ 5) Bootstrap 
