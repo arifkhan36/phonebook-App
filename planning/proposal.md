@@ -4,10 +4,16 @@
 
 # project-description:
 
- I will build a phonebook app where will be an image of the person, a mobile number,a location and a notes form of the person as well.There will be feature also where person can update and delete there contact information.
+ I will build a phonebook app where someone can upload imgaes, add a mobile number, location and notes in a form.There will also be features where users can update and delete their contact information.
 
 # wireframes:
 ![wireframe](https://github.com/arifkhan36/phonebook-app-project2/blob/master/planning/wireframe1.jpg)
 
 # mvp:
-my app will start with a landing page where will be a home and a create button.In second page, there will be an image,name, location and add notes option for the person.After,creating the account person can see the succesfull message if contact created successfully otherwise will get the error message.In third page, person can see his contact list along his update and delete button where person can update and delete his contact info.In page four, there will be all persons contact list that created before and will show the list from the database!!!!
+my app will start with a landing page, which I call a Homepage, and a button in it to navigate to the second page .In second page there will be an image,name, location and add notes options for the users.After creating the account the users can see a succesfull message if they manage to create their profile successfully, otherwise they will get an error message.In the third page users can see hteir contact list along with an update and delete button where they can update and delete their contact info.In the fourth page there will be all users contact list that are created before, and it will show the list from the database.
+# Technology I will use:
+1)Ejs
+2)Node and express
+3)Css
+4)Psql
+5)Bootstrap 
