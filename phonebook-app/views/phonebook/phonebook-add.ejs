@@ -1,0 +1,16 @@
+`<%# as the filename states, this view should render the `add` template %>
+
+<%#include ../partials/header.ejs %>
+
+<form action="/phones" method="POST">
+<input type="text" name="name" placeholder="name">
+<input type="text" name="contact" placeholder="contact">
+<input type="text" name="location" placeholder="location">
+
+<input type="submit" value="Add it!"/>
+
+
+</form>
+
+
+<%# include ../partials/footer.ejs %>

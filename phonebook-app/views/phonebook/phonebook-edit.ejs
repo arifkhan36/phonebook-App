@@ -1,0 +1,23 @@
+ <%#include ../partials/header.ejs %>
+
+ <div class='phones'>
+      <h1><%= data.name %></h1>
+      <h3><%= data.contact %></h3>
+      <h3><%= data.location %></h3>
+    </div>
+
+<form action="/phones" method="POST">
+<input type="text" name="name" placeholder="name">
+<input type="text" name="contact" placeholder="contact">
+<input type="text" name="location" placeholder="location">
+
+<input type="submit" value="Edit"/>
+
+
+</form>
+
+
+<%# include ../partials/footer.ejs %>
+
+
+

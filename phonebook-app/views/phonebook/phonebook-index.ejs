@@ -1,0 +1,26 @@
+  <%# as the filename states, this view should render the `index` phone template that lists all movies in the database! %>
+<%# make sure each phone has a button to be deleted from the databse %>
+
+  <% include ../partials/header.ejs %>
+
+
+  <a href="/phones/add">Add New contact</a>
+  <% for (let phones of data) { %>
+    <div class='phones'>
+      <h1><%= phones.name %></h1>
+      <h1><%= phones.contact %></h1>
+      <h1><%= phones.location %></h1>
+      <a href='/phones/<%= phones.id%>'>Learn more</a>
+
+
+       <form action="/phones/<%= phones.id %>?_method=Delete " method="Post">
+      <input type="Submit" value="Delete"/>
+      </form>
+
+       <form action="/phones/edit/<%= phones.id %>" method=GET  >
+      <input type="Submit" value="Edit"/>
+      </form>
+    </div>
+  <% } %>
+
+  <% include ../partials/footer.ejs %>
