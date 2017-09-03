@@ -6,7 +6,9 @@
       <h3><%= data.location %></h3>
     </div>
 
-<form action="/phones" method="POST">
+
+<form class="" action="/phones/<%= data.id %>?_method=PUT" method="post">
+
 <input type="text" name="name" placeholder="name">
 <input type="text" name="contact" placeholder="contact">
 <input type="text" name="location" placeholder="location">
@@ -18,6 +20,4 @@
 
 
 <%# include ../partials/footer.ejs %>
-
-
 
