@@ -21,7 +21,7 @@ app.set("view engine", "ejs");
 
 const PORT = process.env.PORT || 3000;
 
-app.use('/phones',phoneRoutes);
+app.use('/phones', phoneRoutes);
 
 
 app.get('/', (req, res) => {

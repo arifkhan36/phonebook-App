@@ -4,12 +4,13 @@ const phonesController = {};
 // res.render('creates')};
 
 phonesController.index = (req,res) => {
+  console.log('in index function controller');
   Phone.findAll()
   .then(phones=> {
     console.log("this is data from index", phones)
     res.render('phonebook/phonebook-index',{
       message: 'ok',
-      data:phones,
+      data: phones,
     });
   }).catch(err => {
     console.log(err);
