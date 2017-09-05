@@ -1,18 +1,17 @@
-<%# as the filename states, this view should render the `add` template %>
-
-<%#include ../partials/header.ejs %>
 
 
-<div class="container">
-<img src="../public/styles/images/iphone.png" class="img-rounded" alt="iphone" width="304" height="236">
-  <div class="row">
+<% include ../partials/header.ejs %>
+<div class="iphone">
+<img src="../styles/images/iphone.png" />
+</div>
 
+<div class="holder">
 
-  <div style="width: 30%; margin: 20px auto;">
+  <div style="width: 20%; position:absolute; top:35%; left:7%">
 
-   <h1>Create a New Contact</h1>
 
   <form action="/phones" method="POST">
+      <h1>Create a New Contact</h1>
 
 
      <div class="form-group">
@@ -34,7 +33,7 @@
 
 
   </form>
-  </div>
+
 </div>
 </div>
 <%# include ../partials/footer.ejs %>

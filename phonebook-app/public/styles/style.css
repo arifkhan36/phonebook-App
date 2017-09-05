@@ -24,6 +24,19 @@ h2{
 /*a{
   margin:0px 500px 0px;
 }*/
+
+/*.holder{
+    margin: 45px;
+}*/
+img{
+    margin:30px 45px;
+}
+
+.holder{
+    position: absolute;
+    top: 200px;
+    left: 60;
+}
 .image{
   background-image:url("images/iphone.png");
   text-align: center;
@@ -31,7 +44,8 @@ h2{
 .container{
   background-image:url("images/iphone.png");
   background-repeat: no-repeat;
-  }
+
+}
 
 .input {
   width: 50%;
