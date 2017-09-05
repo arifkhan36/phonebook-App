@@ -3,8 +3,9 @@
 
   <% include ../partials/header.ejs %>
 
-
-  <a href="/phones/add">Add New contact</a>
+  <div class="contact">
+    <a class="btn btn-primary btn-large" href="/phones/add">Add New contact</a>
+  </div>
   <% for (let phones of data) { %>
     <div class='phones'>
       <h1><%= phones.name %></h1>
@@ -16,11 +17,12 @@
        <form action="/phones/<%= phones.id %>?_method=Delete " method="Post">
       <input type="Submit" value="Delete"/>
       </form>
-
+    </div>
+    <div class="edit">
        <form action="/phones/edit/<%=phones.id %>"method="GET">
       <input type="Submit" value="Edit"/>
       </form>
-    </div>
+      </div>
   <% } %>
 
   <% include ../partials/footer.ejs %>

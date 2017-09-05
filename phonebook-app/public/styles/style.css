@@ -1,0 +1,51 @@
+/*h1{
+  color:purple;
+  margin: 20px 500px 20px;
+}
+input{
+  color:red;
+  margin:10px 500px 0px;
+}
+
+button{
+  color:green;
+}
+a{
+  margin:0px 500px 0px;
+}
+h2{
+  color:purple;
+  margin:20px 500px 20px;
+}
+.container{
+  margin:0px auto;
+
+}*/
+/*a{
+  margin:0px 500px 0px;
+}*/
+.image{
+  background-image:url("images/iphone.png");
+  text-align: center;
+}
+.container{
+  background-image:url("images/iphone.png");
+  background-repeat: no-repeat;
+  }
+
+.input {
+  width: 50%;
+}
+.edit{
+    margin-left: 29em;
+    }
+.phones{
+  color:red;
+  margin:20px 400px 20px;
+}
+.link{
+  margin:0px 0px 0px;
+}
+.contact{
+  margin:20px 400px 20px;
+}

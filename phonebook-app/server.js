@@ -10,6 +10,7 @@ const methodOverride = require('method-override');
 // initialize the app
 const app = express();
 app.use(logger('dev'));
+app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended:false}));
 // method override
 app.use(bodyParser.json());

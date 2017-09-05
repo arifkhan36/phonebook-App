@@ -1,10 +1,20 @@
-<%# entry view of our todos app, should be rendered on index route %>
+<%# entry view of our phonebook app, should be rendered on index route %>
 
 
 <% include ./partials/header.ejs %>
-  <h1>Hello!!! From my New phonebook App </h1>
-  <h2><%= message %></h2>
+<div class="container">
+  <header class="jumbotron">
+  <h1>Hello!From my phoneBook App </h1>
+  </header>
 
-  <a href ='/phones'>create new contact & list</a>
+  <h2><%= message %></h2>
+<div class='link'>
+  <p>
+    <a class="btn btn-primary btn-large" href ='/phones'>create new contact & list</a>
+   </p>
+
+</div>
+</div>
+
   <% include ./partials/footer.ejs %>
 

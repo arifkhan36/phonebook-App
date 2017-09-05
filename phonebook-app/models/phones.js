@@ -31,7 +31,7 @@ Phone.update = (phones, id) => {
     location = $3
     WHERE id = $4
     RETURNING *
-  `, [phones.name, phones.contact, phones.location, id]);
+  `, [phones.name, phones.contact, phones.location,id]);
 }
 
 Phone.destroy = (id) => {

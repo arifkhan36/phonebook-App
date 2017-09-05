@@ -1,16 +1,40 @@
-`<%# as the filename states, this view should render the `add` template %>
+<%# as the filename states, this view should render the `add` template %>
 
 <%#include ../partials/header.ejs %>
 
-<form action="/phones" method="POST">
-<input type="text" name="name" placeholder="name">
-<input type="text" name="contact" placeholder="contact">
-<input type="text" name="location" placeholder="location">
 
-<input type="submit" value="Add it!"/>
+<div class="container">
+<img src="../public/styles/images/iphone.png" class="img-rounded" alt="iphone" width="304" height="236">
+  <div class="row">
 
 
-</form>
+  <div style="width: 30%; margin: 20px auto;">
+
+   <h1>Create a New Contact</h1>
+
+  <form action="/phones" method="POST">
 
 
+     <div class="form-group">
+     <input class='form-control' type='text' name='name' placeholder='name'>
+     </div>
+
+     <div class="form-group">
+     <input class="form-control" type="text" name="contact" placeholder="contact">
+     </div>
+     <div class="form-group">
+
+    <input class="form-control" type="text" name="location" placeholder="location">
+    </div>
+    <div class="form-group">
+    <button class="btn btn-lg btn-default">Submit!</button>
+    </div>
+
+    <a href="/phones">Go back</a>
+
+
+  </form>
+  </div>
+</div>
+</div>
 <%# include ../partials/footer.ejs %>
