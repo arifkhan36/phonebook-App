@@ -12,4 +12,4 @@ In my app, user's can create their contact by clicking create button and then us
 
 # post MVP:
 
-I am trying to add images on top of the name where user's can upload their images clicking add image button.
+I am trying to add images on top of the name where user's can upload their images by clicking add image button.
