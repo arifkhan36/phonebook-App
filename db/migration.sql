@@ -1,4 +1,5 @@
-\connect phones_db_dev;
+
+
 DROP TABLE IF EXISTS phones;
 
 
