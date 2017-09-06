@@ -13,3 +13,11 @@ In my app, user's can create their contact by clicking create button and then us
 # post MVP:
 
 I am trying to add images on top of the name where user's can upload their images by clicking add image button.
+
+# Technologies Used:
+
+ 1) Ejs
+ 2) Node and Express
+ 3) Css
+ 4) Psql
+ 5) Bootstrap 
