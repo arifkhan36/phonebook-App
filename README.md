@@ -7,3 +7,9 @@ my app will start with a landing page, which I call a Homepage, and a button in 
 ![wireframe](https://github.com/arifkhan36/phonebook-app-project2/blob/master/planning/wireframe1.jpg)
 
 # User Stories:
+
+In my app, user's can create their contact by clicking create button and then user's can update and delete their contact info as well.
+
+# post MVP:
+
+I am trying to add images on top of the name where user's can upload their images clicking add image button.
